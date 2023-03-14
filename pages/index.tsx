@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
-import Button from "@/components/Button";
-import {AiFillCaretRight} from "react-icons/ai";
+import DefinedButton from "@/components/Button";
+import { AiFillCaretRight } from "react-icons/ai";
 
 export default function Home() {
   return (
@@ -15,7 +15,7 @@ export default function Home() {
       <header>
         <div className="flex items-center justify-between p-2 m-2 bg-inherit transpac ">
           <p className="font-bold text-xl">🦄 DeCrypt </p>
-          <Button text="Connect Wallet" variant="primary" />
+          <DefinedButton text="Connect Wallet" variant="primary" />
         </div>
       </header>
       <main>
@@ -31,8 +31,8 @@ export default function Home() {
             platforms around the world.{" "}
           </p>
           <div className="flex items-center justify-center gap-2">
-            <Button text="Get Started &rarr;" variant="primary" />
-            <Button text="See how it works &rarr; " />
+            <DefinedButton text="Get Started &rarr;" variant="primary" />
+            <DefinedButton text=<> See how it works <AiFillCaretRight/> </> variant="secondary"  />
           </div>
         </div>
         <div className=""></div>

@@ -1,15 +1,16 @@
-import React from 'react'
+import React from "react";
+import Layout from "@/components/Layout";
 
 interface Props {}
 
 function Dashboard(props: Props) {
-    const {} = props
+  const {} = props;
 
-    return (
-        <>
-        This is the dashboard page
-        </>
-    )
+  return (
+    <Layout>
+        <p>Hellow World</p>
+    </Layout>
+  );
 }
 
-export default Dashboard
+export default Dashboard;
